@@ -1,0 +1,19 @@
+{
+  "name": "bongcales_final_exam",
+  "version": "1.0.0",
+  "description": "Student Information Management System CRUD",
+  "main": "crud_final_exam.js",
+  "scripts": {
+    "start": "node crud_final_exam.js"
+  },
+  "keywords": [],
+  "author": "Jessiel Mae Bongcales",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^4.18.2",
+    "mysql2": "^3.22.3"
+  }
+}

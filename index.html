@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Information System</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVIGATION MENU ================= -->
+<nav>
+    <div class="logo">Student System</div>
+
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Register</a>
+        <a href="#">Student List</a>
+    </div>
+</nav>
+
+<!-- ================= HEADER ================= -->
+<h1>Student Information Management System</h1>
+
+<!-- ================= STUDENT FORM ================= -->
+<form id="studentForm">
+
+    <input type="text" id="student_id" placeholder="Student ID" required>
+
+    <input type="text" id="full_name" placeholder="Full Name" required>
+
+    <input type="text" id="course" placeholder="Course" required>
+
+    <input type="text" id="year_level" placeholder="Year Level" required>
+
+    <input type="email" id="email" placeholder="Email Address" required>
+
+    <button type="submit">Save Student</button>
+
+</form>
+
+<hr>
+
+<!-- ================= STUDENT TABLE ================= -->
+<h2>Student List</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Student ID</th>
+            <th>Full Name</th>
+            <th>Course</th>
+            <th>Year Level</th>
+            <th>Email</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <tbody id="studentTable"></tbody>
+</table>
+
+<!-- ================= SCRIPT ================= -->
+<script src="script.js"></script>
+
+</body>
+</html>
